@@ -1,0 +1,23 @@
+{
+  "name": "express-graphql-postgres",
+  "version": "1.0.0",
+  "description": "`npm install`",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "join-monster": "^2.1.0",
+    "pg": "^8.7.3",
+    "prompt": "^1.2.2",
+    "ramda": "^0.28.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node graphQL.js",
+    "generate": "node generateGraphQLSchema.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
